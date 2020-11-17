@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ThingListContext from '../../contexts/ThingListContext'
 import ThingApiService from '../../services/thing-api-service'
-import { Section } from '../../components/Utils/Utils'
+import { Section } from '../../Utils/Utils'
 import ThingListItem from '../../components/ThingListItem/ThingListItem'
 import './ThingListPage.css'
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ThingContext from '../../contexts/ThingContext'
 import ThingApiService from '../../services/thing-api-service'
-import { Button, Textarea } from '../Utils/Utils'
+import { Button, Textarea } from '../../Utils/Utils'
 import './ReviewForm.css'
 
 export default class ReviewForm extends Component {
