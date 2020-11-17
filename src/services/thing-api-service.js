@@ -13,8 +13,8 @@ const ThingApiService = {
           : res.json()
       )
   },
-  getThing(thingId) {
-    return fetch(`${config.API_ENDPOINT}/things/${thingId}`, {
+  getThing(thing_Id) {
+    return fetch(`${config.API_ENDPOINT}/things/${thing_Id}`, {
       headers: {
         'authorization': `bearer ${TokenService.getAuthToken()}`,
       },
@@ -25,8 +25,8 @@ const ThingApiService = {
           : res.json()
       )
   },
-  getThingReviews(thingId) {
-    return fetch(`${config.API_ENDPOINT}/things/${thingId}/reviews`, {
+  getThingReviews(thing_Id) {
+    return fetch(`${config.API_ENDPOINT}/things/${thing_Id}/reviews`, {
       headers: {
         'authorization': `bearer ${TokenService.getAuthToken()}`,
       },
